@@ -8,6 +8,9 @@
 
 React 🌵 + Firebase 🔥 + Material UI 🧰
 
+### Demo
+![](https://github.com/imprakashraghu/messenger-clone/demo.gif)
+
 ### Installation
 
 - Clone or Download

@@ -23,7 +23,7 @@ const Message = forwardRef(({ user, message }, ref) => {
                 variant="caption"
                 component="p"
                 className={isUser ? "message__timeUser" : "message__time"}
-            >{moment.unix(message.timestamp.seconds).fromNow()}</Typography>         
+            >{message.timestamp ? moment.unix(message?.timestamp?.seconds).fromNow():null}</Typography>         
         </div>
     )
 });
